@@ -1,6 +1,6 @@
 
 export default function Home() {
   return (
-    <div>PayTM</div>
+    <div>PayTM Karo</div>
   );
 }
