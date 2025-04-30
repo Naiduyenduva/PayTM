@@ -27,6 +27,6 @@ model Contacts {
   id            String @id @default(uuid())
   contactNumber String @unique
   ContactName   String 
-  userId      String   // Foreign key
+  userId        String   // Foreign key
   user          User     @relation(fields: [userId], references: [id])
 }
